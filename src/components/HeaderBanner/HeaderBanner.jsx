@@ -7,7 +7,7 @@ const HeaderBanner = () => {
   return (
     <>
       <BannerContainer>
-        <img src={Banner} />
+        <img src={Banner} alt="Banner" />
       </BannerContainer>
     </>
   );

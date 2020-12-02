@@ -25,7 +25,6 @@ import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import CallIcon from "@material-ui/icons/Call";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
-import MenuIcon from "@material-ui/icons/Menu";
 
 import MenuDropDown from "../Menu/MenuDropDown";
 import ToggleMenu from "../Menu/ToggleMenu";
