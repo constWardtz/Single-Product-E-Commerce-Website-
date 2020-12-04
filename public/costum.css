@@ -17,11 +17,15 @@ ul, li {
 
 :root{
     --primary-color: #C832FD;
-    --secondary-color: #535252;
+    --secondary-color: #2A2A2A;
     --dark-color: #202020;
     --light-color: #fffdfd;
     --thin-color: #f1eeee;
+    --hover-color: #ac2fda;
 
     --primary-text: 1rem;
     --secondary-text: .9rem;
+
+    --font-weight-500: 500;
+    --font-weight-300s: 300;
 }

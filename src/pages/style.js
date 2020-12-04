@@ -1,5 +1,21 @@
 import styled from 'styled-components'
 
-export const HomePageContainer = styled.div`
+export const HomePageSection = styled.div`
     display: grid;
+`
+
+export const ProductPageSection = styled.div`
+    display: grid;
+`
+
+/* Products Main Container */ 
+export const ProductSectionContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+`
+
+export const MarginTop = styled.div`
+    margin-top: ${({margin}) => margin ? margin : '1rem'};
 `

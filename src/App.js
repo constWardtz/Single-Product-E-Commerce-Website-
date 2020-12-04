@@ -9,6 +9,7 @@ const App = () => {
         <Router>
             <Switch>
                 <Route exact path="/" component={ HomePage }/>
+                <Route exact path="/product" />
             </Switch>
         </Router>
     )
