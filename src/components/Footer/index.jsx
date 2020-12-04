@@ -50,6 +50,8 @@ const FooterSection = () => {
             </li>
             <a href="">Contact Us</a>
           </li>
+        </ul>
+        <ul>
           <li>
             <h1>LOGO</h1>
           </li>
@@ -57,8 +59,8 @@ const FooterSection = () => {
       </LineOne>
 
       <LineTwo>
-        <b>Dasmariñas Cavite Baranngay Sta. Lucia Area 1 Blk 100 Lot 100 </b>
-        <b>© 2020 Jennifer GP’s Crochet Works</b>
+        <p>Dasmariñas Cavite Baranngay Sta. Lucia Area 1 Blk 100 Lot 100 </p>
+        <p>© {new Date().getFullYear()} Jennifer GP’s Crochet Works</p>
       </LineTwo>
     </FooterContainer>
   );
