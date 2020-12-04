@@ -30,6 +30,7 @@ export const TextContainer = styled.div`
     div:nth-child(1){
         h1{
             font-size: calc(var(--primary-text) + 2rem);
+            font-weight: var(--font-weight-500);
             color: var(--secondary-color);
         }
        div{

@@ -13,7 +13,7 @@ export const HeaderServiceContainer = styled.div`
     border: 1px var(--thin-color) solid;
     border-radius: 5px;
     padding: 1.5rem; 
-    width: 20%;
+    width: 23%;
     margin: 1rem;
     
     display: flex;

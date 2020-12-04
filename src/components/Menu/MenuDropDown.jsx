@@ -8,13 +8,17 @@ import ListItemText from "@material-ui/core/ListItemText";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
-import { Typography } from "@material-ui/core";
 
 const useStyle = makeStyles(() => ({
   menuBtn: {
     color: "var(--dark-color)",
   },
+  categoryFont: {
+    fontSize: "calc(var(--secondary-text) + 0.2rem)",
+    fontWeight: "calc(var(--font-weight-500) + 200)",
+  },
 }));
+
 const StyledMenu = withStyles({
   paper: {
     border: "1px solid #d3d4d5",
@@ -68,8 +72,9 @@ export default function MenuDropDown() {
         onClick={handleClick}
       >
         <MenuIcon />
-        <Typography variant="h6">&nbsp;&nbsp;All Category</Typography>
+        <h1 className={classes.categoryFont}>&nbsp;&nbsp;All Category</h1>
       </IconButton>
+
       <StyledMenu
         id="customized-menu"
         anchorEl={anchorEl}

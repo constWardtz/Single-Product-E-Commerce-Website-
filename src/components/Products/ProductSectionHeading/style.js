@@ -6,7 +6,7 @@ export const HeadingContainer = styled.div`
     justify-content: space-between;
     justify-self: center;
     padding: 10px;
-    width: 65%;
+    width: 74%;
 
     div{
         display: grid;

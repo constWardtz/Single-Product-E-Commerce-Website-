@@ -19,3 +19,9 @@ export const ProductSectionContainer = styled.div`
 export const MarginTop = styled.div`
     margin-top: ${({margin}) => margin ? margin : '1rem'};
 `
+
+/* Footer Section Container */ 
+export const FooterSectionContainer = styled.div`
+    height: 80vh;
+    background: var(--primary-color);
+`

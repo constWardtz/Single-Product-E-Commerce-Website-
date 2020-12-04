@@ -7,5 +7,6 @@ export const BannerContainer = styled.div`
 
     img{
         max-width: 100%;
+        border-radius: 5px;
     }
 `

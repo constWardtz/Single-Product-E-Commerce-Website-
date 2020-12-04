@@ -27,5 +27,26 @@ ul, li {
     --secondary-text: .9rem;
 
     --font-weight-500: 500;
-    --font-weight-300s: 300;
+    --font-weight-300: 300;
+}
+
+
+/* Costum Scrollbar */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+/* Background */
+
+::-webkit-scrollbar-track {
+    background: var(--thin-color);
+}
+
+
+/* handle */
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
 }

@@ -15,6 +15,7 @@ import {
   ProductPageSection,
   ProductSectionContainer,
   MarginTop,
+  FooterSectionContainer,
 } from "../style";
 
 const LandingSection = () => {
@@ -37,6 +38,7 @@ const LandingSection = () => {
           <PopularProducts />
           <PopularProducts />
           <PopularProducts />
+          <PopularProducts />
         </ProductSectionContainer>
 
         <MarginTop />
@@ -44,6 +46,7 @@ const LandingSection = () => {
         {/* Recommended products */}
         <ProductSectionHeading heading="Recommended Products" showBtn={false} />
         <ProductSectionContainer>
+          <PopularProducts />
           <PopularProducts />
           <PopularProducts />
           <PopularProducts />
@@ -56,7 +59,9 @@ const LandingSection = () => {
       <AboutSection />
 
       {/* Footer Section */}
-      <FooterSection />
+      <FooterSectionContainer>
+        <FooterSection />
+      </FooterSectionContainer>
     </>
   );
 };

@@ -2,6 +2,9 @@ import React from "react";
 
 import { FooterContainer, LineOne, LineTwo } from "./style";
 
+/* Data */
+import { FooterData } from "./Data";
+
 const FooterSection = () => {
   return (
     <FooterContainer>
@@ -20,6 +23,7 @@ const FooterSection = () => {
             <a href="#">Sitemap</a>
           </li>
         </ul>
+
         <ul>
           <li>
             <h1>Social Media</h1>
@@ -37,6 +41,7 @@ const FooterSection = () => {
             <a href="#">Instagram</a>
           </li>
         </ul>
+
         <ul>
           <li>
             <h1>Help & FAQs</h1>
@@ -45,15 +50,16 @@ const FooterSection = () => {
             <a href="">Shipping</a>
           </li>
           <li>
-            <li>
-              <a href="">Billing</a>
-            </li>
+            <a href="">Billing</a>
+          </li>
+          <li>
             <a href="">Contact Us</a>
           </li>
         </ul>
+
         <ul>
           <li>
-            <h1>LOGO</h1>
+            <img src={FooterData.logo} alt="Logo" />
           </li>
         </ul>
       </LineOne>

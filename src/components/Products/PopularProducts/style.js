@@ -3,9 +3,9 @@ import styled from 'styled-components'
 export const ProductContainer = styled.div`
     border: 1px var(--thin-color) solid;
     padding: 10px;
-    width: 300px;
-    height: 450px;
-    margin: 1.5rem;
+    width: 280px;
+    height: 400px;
+    margin: .5rem;
 
     /* Layout */
     display: flex;
@@ -25,6 +25,7 @@ export const FirstLine = styled.div`
     text-align: start;
     h1{
         font-weight: var(--font-weight-300);
+        font-size: calc(var(--primary-text) + .7rem);
     }
 
     p{
