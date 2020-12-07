@@ -6,6 +6,7 @@ export const ProductContainer = styled.div`
     width: 280px;
     height: 400px;
     margin: .5rem;
+    border-radius: 5px;
 
     /* Layout */
     display: flex;

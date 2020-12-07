@@ -22,6 +22,6 @@ export const MarginTop = styled.div`
 
 /* Footer Section Container */ 
 export const FooterSectionContainer = styled.div`
-    height: 80vh;
+    height: 70vh;
     background: var(--primary-color);
 `

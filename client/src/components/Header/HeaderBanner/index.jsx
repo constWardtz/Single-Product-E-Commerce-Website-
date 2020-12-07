@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../../assets/images/MainBanner.jpg";
+import Banner from "../../../assets/images/MainBanner.jpg";
 
 import { BannerContainer } from "./style";
 

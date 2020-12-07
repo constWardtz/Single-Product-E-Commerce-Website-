@@ -24,7 +24,7 @@ export const LineOne = styled.div`
         }
         
         li{
-            padding: 1rem;
+            padding: .7rem;
             a{
                 color: var(--light-color);
                 text-decoration: none;

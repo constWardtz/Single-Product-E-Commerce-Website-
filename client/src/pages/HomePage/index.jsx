@@ -8,7 +8,8 @@ import {
   AboutSection,
   FooterSection,
 } from "../../components";
-import HeaderService from "../../components/HeaderService/HeaderService";
+
+import HeaderService from "../../components/Header/HeaderService/HeaderService";
 
 import {
   HomePageSection,

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
  
 /* Assets */ 
-import logo from '../../assets/images/logos/logo.png'
+import logo from '../../../assets/images/logos/logo_navbar.png'
 
 export const Header = styled.div`
     display: grid;
@@ -16,7 +16,7 @@ export const HeaderTop = styled.div`
     /* Layout */
     display: grid;
     grid-template-columns: repeat(2, auto);
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     
     
@@ -69,7 +69,7 @@ export const HeaderMiddle = styled.div`
     grid-template-columns: repeat(3, auto);
     align-content: space-around;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
     @media screen and (max-width: 730px){
         height: 170px;
@@ -146,7 +146,7 @@ export const Input = styled.li`
     input{
         padding: 13px;
         border: 1px var(--thin-color) solid;
-        width: 25rem;
+        width: 28rem;
         color: var(--secondary-color);
         font-size: var(--primary-text);
         outline: none;
