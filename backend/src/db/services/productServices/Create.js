@@ -1,16 +1,21 @@
 const Connection = require("../../database.js");
 
-module.exports = async (productName, productDescription) => {
+module.exports = async (
+  productName,
+  productDescription,
+  productRatings = 0
+) => {
   try {
     const query =
       `INSERT INTO ` +
       `products ` +
-      `VALUES ` +
-      `(null,` +
-      `"${productName}",` +
-      `${productDescription}`;
+      `SET ` +
+      `id = null,` +
+      `productName = ?,` +
+      `productDescription = ?,` +
+      `productRatings = ?`;
 
-    await Connection(query);
+    await Connection(query, [productName, productDescription, productRatings]);
     return true;
   } catch (e) {
     console.log(e);
