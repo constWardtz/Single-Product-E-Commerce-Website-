@@ -6,11 +6,11 @@ module.exports = async (id, productName, productDescription) => {
       `UPDATE ` +
       `products ` +
       `SET ` +
-      `productName = "${productName}",` +
-      `productDescription = "${productDescription}" ` +
+      `productName = ?,` +
+      `productDescription = ? ` +
       `WHERE ` +
-      `id = ${id}`;
-    await Connection(query);
+      `id = ?`;
+    await Connection(query, [productName, productDescription, id]);
 
     return true;
   } catch (e) {
