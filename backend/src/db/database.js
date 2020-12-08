@@ -9,13 +9,13 @@ const dbconfig = {
 
 const db = mysql.createPool(dbconfig);
 
-module.exports = (query) => {
+module.exports = (query, placeHolder) => {
   return new Promise((resolve, reject) => {
     db.getConnection((err, connection) => {
       if (err) {
         reject(err);
       } else {
-        connection.query(query, (err, result) => {
+        connection.query(query, placeHolder, (err, result) => {
           err ? reject(err) : resolve(result);
           connection.release();
         });
