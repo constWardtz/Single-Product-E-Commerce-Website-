@@ -19,6 +19,7 @@ app.use("/products", productsRoutes);
 // SERVER RUNNING
 const PORT = 5000 || process.env.PORT;
 
-app.listen(PORT, () => {
-  console.log(`Server Running to Port : ${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Localserver:   localhost:${PORT}`);
+  console.log(`Lan Server:    <YourIP>:5000`);
 });
